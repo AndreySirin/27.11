@@ -28,6 +28,7 @@ Graceful Shutdown (корректное завершение работы чер
 ```shell
 метод:POST
 URI:http://localhost:8080/api/v1/tasks
+тело запроса:
  {
   "links": [
 	"https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg",
@@ -45,7 +46,7 @@ URI:http://localhost:8080/api/v1/tasks
 ```shell
 метод:POST
 URI:http://localhost:8080/api/v1/report
-тело запрса:
+тело запроса:
  {
      "links_list":[id]
  }
